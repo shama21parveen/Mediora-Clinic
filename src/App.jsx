@@ -13,13 +13,13 @@ import TrustSection from "./components/TrustSection";
 
 function App() {
   return (
-    <div className="bg-soft text-ink">
+    <div className="overflow-x-hidden bg-soft text-ink">
       <Navbar />
 
       <main>
         <HeroSection />
 
-        <div className="mx-auto flex w-full max-w-[1512px] flex-col gap-7 px-4 py-8 sm:px-6 lg:px-12 lg:py-10">
+        <div className="mx-auto flex w-full max-w-[1512px] flex-col gap-5 px-3 py-5 sm:gap-7 sm:px-6 sm:py-8 lg:px-12 lg:py-10">
           <AboutSection />
           <ServicesSection />
           <TrustSection />

@@ -9,8 +9,8 @@ const trustCards = [
 
 function TrustSection() {
   return (
-    <section className="bg-white py-12">
-      <h2 className="mx-auto h-[45px] w-full max-w-[725px] text-center text-[30px] font-semibold leading-none tracking-normal text-[#208BFB]">
+    <section className="bg-white px-3 py-10 sm:px-0 sm:py-12">
+      <h2 className="mx-auto h-auto w-full max-w-[725px] text-center text-[26px] font-semibold leading-[1.15] tracking-normal text-[#208BFB] sm:h-[45px] sm:text-[30px] sm:leading-none">
         Trusted by Patients, Recommended by Families
       </h2>
 

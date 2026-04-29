@@ -3,24 +3,24 @@ const testimonials = [
     name: "Ramesh Kumar",
     nameWidth: 195,
     quote:
-      "“Dr. Ajay explains everything clearly and makes you feel comfortable.”",
+      '"Dr. Ajay explains everything clearly and makes you feel comfortable."',
   },
   {
     name: "Ashutosh Kumar",
     nameWidth: 210,
-    quote: "“Professional service with excellent care and attention.”",
+    quote: '"Professional service with excellent care and attention."',
   },
   {
     name: "Harshit Kaushal",
     nameWidth: 199,
-    quote: "“Highly satisfied with the treatment and overall experience.”",
+    quote: '"Highly satisfied with the treatment and overall experience."',
   },
 ];
 
 function TestimonialsSection() {
   return (
-    <section id="testimonials" className="bg-white px-6 py-12 lg:px-0">
-      <h2 className="mx-auto h-[45px] w-full max-w-[299px] text-center text-[30px] font-semibold leading-none tracking-normal text-[#208BFB]">
+    <section id="testimonials" className="bg-white px-4 py-10 sm:px-6 sm:py-12 lg:px-0">
+      <h2 className="mx-auto h-auto w-full max-w-[299px] text-center text-[26px] font-semibold leading-[1.15] tracking-normal text-[#208BFB] sm:h-[45px] sm:text-[30px] sm:leading-none">
         Patient Experiences
       </h2>
 
@@ -40,7 +40,7 @@ function TestimonialsSection() {
               className="relative mx-auto h-[232px] w-full max-w-[368px] rounded-[10px] bg-white text-center shadow-[0_0_16px_rgba(0,0,0,0.25)]"
             >
               <h3
-                className="absolute left-1/2 top-[47px] flex h-[38px] -translate-x-1/2 items-center justify-center whitespace-nowrap text-center text-[25px] font-medium leading-none tracking-normal text-black"
+                className="absolute left-1/2 top-[47px] flex h-[38px] -translate-x-1/2 items-center justify-center whitespace-nowrap text-center text-[23px] font-medium leading-none tracking-normal text-black sm:text-[25px]"
                 style={{ width: `${item.nameWidth}px` }}
               >
                 {item.name}
@@ -50,7 +50,7 @@ function TestimonialsSection() {
                 ★★★★★
               </div>
 
-              <p className="absolute left-1/2 top-[121px] flex h-[81px] w-[315px] -translate-x-1/2 items-start justify-center text-center text-[18px] font-normal leading-none tracking-normal text-black">
+              <p className="absolute left-1/2 top-[121px] flex h-[81px] w-[calc(100%-40px)] max-w-[315px] -translate-x-1/2 items-start justify-center text-center text-[16px] font-normal leading-[1.2] tracking-normal text-black sm:text-[18px] sm:leading-none">
                 {item.quote}
               </p>
             </article>

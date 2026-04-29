@@ -7,8 +7,8 @@ const serviceCards = [
 
 function ServicesSection() {
   return (
-    <section id="services" className="bg-white py-12">
-      <h2 className="mx-auto h-[45px] w-full max-w-[556px] text-center text-[30px] font-semibold leading-none tracking-normal text-[#208BFB]">
+    <section id="services" className="bg-white px-3 py-10 sm:px-0 sm:py-12">
+      <h2 className="mx-auto h-auto w-full max-w-[556px] text-center text-[26px] font-semibold leading-[1.15] tracking-normal text-[#208BFB] sm:h-[45px] sm:text-[30px] sm:leading-none">
         Comprehensive Healthcare Services
       </h2>
 
@@ -16,7 +16,7 @@ function ServicesSection() {
         <button
           type="button"
           aria-label="Previous services"
-          className="absolute left-[-14px] z-10 flex h-10 w-10 items-center justify-center rounded-full bg-[#208BFB] text-[30px] font-normal leading-none text-white shadow-[0_4px_10px_rgba(0,0,0,0.12)]"
+          className="absolute left-0 z-10 hidden h-10 w-10 items-center justify-center rounded-full bg-[#208BFB] text-[30px] font-normal leading-none text-white shadow-[0_4px_10px_rgba(0,0,0,0.12)] sm:flex xl:left-[-14px]"
         >
           <span className="-mt-1">&#8249;</span>
         </button>
@@ -39,7 +39,7 @@ function ServicesSection() {
         <button
           type="button"
           aria-label="Next services"
-          className="absolute right-[-14px] z-10 flex h-10 w-10 items-center justify-center rounded-full bg-[#208BFB] text-[30px] font-normal leading-none text-white shadow-[0_4px_10px_rgba(0,0,0,0.12)]"
+          className="absolute right-0 z-10 hidden h-10 w-10 items-center justify-center rounded-full bg-[#208BFB] text-[30px] font-normal leading-none text-white shadow-[0_4px_10px_rgba(0,0,0,0.12)] sm:flex xl:right-[-14px]"
         >
           <span className="-mt-1">&#8250;</span>
         </button>

@@ -23,8 +23,8 @@ const journeySteps = [
 
 function JourneySection() {
   return (
-    <section className="bg-white px-6 py-12 lg:px-0">
-      <h2 className="mx-auto h-[45px] w-full max-w-[447px] text-center text-[30px] font-semibold leading-none tracking-normal text-[#208BFB]">
+    <section className="bg-white px-4 py-10 sm:px-6 sm:py-12 lg:px-0">
+      <h2 className="mx-auto h-auto w-full max-w-[447px] text-center text-[26px] font-semibold leading-[1.15] tracking-normal text-[#208BFB] sm:h-[45px] sm:text-[30px] sm:leading-none">
         Your Journey to Better Health
       </h2>
 

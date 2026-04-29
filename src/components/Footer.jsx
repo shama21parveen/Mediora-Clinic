@@ -6,24 +6,24 @@ function Footer() {
           <img
             src="/logo.png"
             alt="Mediora Clinic logo"
-            className="h-[67px] w-[72px] object-cover"
+            className="h-[52px] w-[56px] object-cover sm:h-[67px] sm:w-[72px]"
           />
-          <p className="ml-[7px] font-['Raleway',sans-serif] text-[30px] font-extrabold leading-none tracking-normal text-black">
+          <p className="ml-[7px] font-['Raleway',sans-serif] text-[24px] font-extrabold leading-none tracking-normal text-black sm:text-[30px]">
             Mediora Clinic
           </p>
         </div>
 
-        <p className="font-['Raleway',sans-serif] text-[18px] font-normal leading-none tracking-normal text-black lg:absolute lg:left-[159px] lg:top-[137px] lg:h-[27px] lg:w-[266px]">
+        <p className="text-center font-['Raleway',sans-serif] text-[16px] font-normal leading-none tracking-normal text-black sm:text-[18px] lg:absolute lg:left-[159px] lg:top-[137px] lg:h-[27px] lg:w-[266px] lg:text-left">
           @2026 powered by SpriteEra
         </p>
 
-        <nav className="flex flex-wrap items-center justify-center gap-8 font-['Raleway',sans-serif] text-[18px] font-normal leading-none tracking-normal text-black lg:absolute lg:left-[578px] lg:top-[137px] lg:h-[21px] lg:w-[356px] lg:gap-[80px]">
+        <nav className="flex flex-wrap items-center justify-center gap-5 font-['Raleway',sans-serif] text-[16px] font-normal leading-none tracking-normal text-black sm:gap-8 sm:text-[18px] lg:absolute lg:left-[578px] lg:top-[137px] lg:h-[21px] lg:w-[356px] lg:gap-[80px]">
           <a href="#privacy">Privacy Policy</a>
           <a href="#terms">Terms &amp; Conditions</a>
         </nav>
 
-        <div className="flex items-center gap-[17px] lg:absolute lg:left-[1150px] lg:top-[133px] lg:h-[30px]">
-          <span className="mr-[9px] font-['Raleway',sans-serif] text-[18px] font-normal leading-none tracking-normal text-black">
+        <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-[17px] lg:absolute lg:left-[1150px] lg:top-[133px] lg:h-[30px]">
+          <span className="mr-1 font-['Raleway',sans-serif] text-[16px] font-normal leading-none tracking-normal text-black sm:mr-[9px] sm:text-[18px]">
             Follow Us:
           </span>
           <SocialFacebook />

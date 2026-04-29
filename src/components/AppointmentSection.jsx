@@ -6,17 +6,17 @@ const fields = [
 
 function AppointmentSection() {
   return (
-    <section id="appointment" className="bg-white px-6 py-12 lg:px-0">
-      <h2 className="mx-auto h-[45px] w-full max-w-[190px] text-center text-[30px] font-semibold leading-none tracking-normal text-[#208BFB]">
+    <section id="appointment" className="bg-white px-4 py-10 sm:px-6 sm:py-12 lg:px-0">
+      <h2 className="mx-auto h-auto w-full max-w-[190px] text-center text-[26px] font-semibold leading-[1.15] tracking-normal text-[#208BFB] sm:h-[45px] sm:text-[30px] sm:leading-none">
         Get in Touch
       </h2>
 
-      <p className="mx-auto mt-0 h-auto w-full max-w-[855px] text-center text-[22px] font-normal leading-[33px] tracking-[0.01em] text-black">
+      <p className="mx-auto mt-3 h-auto w-full max-w-[855px] text-center text-[16px] font-normal leading-[1.45] tracking-[0.01em] text-black sm:mt-0 sm:text-[22px] sm:leading-[33px]">
         Whether you need medical help, want to book an appointment, or have any
-        questions — we’re here to assist you.
+        questions - we're here to assist you.
       </p>
 
-      <form className="mx-auto mt-[18px] flex w-full max-w-[855px] flex-col gap-[18px]">
+      <form className="mx-auto mt-[18px] flex w-full max-w-[855px] flex-col gap-[14px] sm:gap-[18px]">
         {fields.map((field) => (
           <input
             key={field.label}

@@ -134,13 +134,13 @@ function Navbar() {
             <img
               src="/logo.png"
               alt="Mediora Clinic Logo"
-              className="h-12 w-12 object-contain"
+              className="h-10 w-10 object-contain sm:h-12 sm:w-12"
             />
             <span
               style={{
                 fontFamily: "Raleway, sans-serif",
                 fontWeight: 800,
-                fontSize: "24px",
+                fontSize: "19px",
                 color: "#000000",
                 lineHeight: 1,
                 whiteSpace: "nowrap",
@@ -155,11 +155,11 @@ function Navbar() {
             style={{
               fontFamily: "Manrope, sans-serif",
               fontWeight: 400,
-              fontSize: "16px",
+              fontSize: "14px",
               color: "#ffffff",
               background: "#2563eb",
               borderRadius: "6px",
-              padding: "10px 16px",
+              padding: "9px 11px",
               lineHeight: 1,
               textDecoration: "none",
             }}
